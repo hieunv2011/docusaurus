@@ -20,16 +20,15 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'intro',
-    'course',
-    'question',
-    'topic',
-    'addFocusExam',
-    'addTeacher',
-    'chat',
-    'lesson'
+    "intro",
+    "course",
+    "question",
+    "topic",
+    "lesson",
+    "addTeacher",
+    "addExam",
+    "chat",
   ],
-
 };
 
 export default sidebars;

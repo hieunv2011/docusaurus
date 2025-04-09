@@ -12,7 +12,7 @@ Người sử dụng có thể quản lý danh sách khóa học của CSĐT, th
 - ✅ **2**: Chức năng xuất báo cáo tổng hợp kết quả học lý thuyết của khóa.
 - ✅ **3**: Chức năng quản lý bộ đề kiểm tra của khóa.
 
-## 2.1 Nhập khóa học mới
+## Nhập khóa học mới
 
 Từ **Trang chủ** 🡆 **Chọn khóa học** 🡆 <a class="button button--primary"> ⊕ Thêm khóa học </a>
 
@@ -33,15 +33,15 @@ Màn hình sau sẽ hiện ra:
 - **File BC1 phải có mã cơ sở đào tạo trùng với mã cơ sở đào tạo được cung cấp Tài khoản.**
 - **Mã cơ sở đào tạo được cung cấp bởi Sở GTVT dùng cho hệ thống DAT, Giáo viên, v.v ...**
 
-## 2.2 Chức năng tìm kiếm
+## Chức năng tìm kiếm
 
 Người sử dụng có thể quản lý danh sách khóa học của CSĐT, bằng cách tìm kiếm khóa học theo **Tên khóa/ mã khóa**. Lọc trạng thái của khóa **Chưa bắt đầu/ Đang diễn ra/ Tất cả**.
 
-## 2.3 Chức năng xuất báo cáo khóa học
+## Chức năng xuất báo cáo khóa học
 
 Cho phép người sử dụng có thể xuất báo cáo, theo dõi/ báo cáo tiến độ học lý thuyết của học viên.
 
-## 2.4 Thêm chương trình đào tạo vào khoá học cụ thể
+## Thêm chương trình đào tạo vào khoá học cụ thể
 
 - Chọn **Khóa học**
 - Bấm <a class="button button--secondary"> Thêm chương trình đào tạo </a>
@@ -51,7 +51,7 @@ Cho phép người sử dụng có thể xuất báo cáo, theo dõi/ báo cáo 
 
 - Bấm **GHI**
 
-## 2.5 Chức năng quản lý bộ đề kiểm tra của khóa
+## Chức năng quản lý bộ đề kiểm tra của khóa
 
 Cho phép người sử dụng có thể tạo thêm/xóa/chỉnh sửa bộ đề kiểm tra của khóa học.
 - Cách tạo thêm đề kiểm tra cho khóa học: chọn nào biểu tượng như trong hình.
@@ -62,7 +62,7 @@ Cho phép người sử dụng có thể tạo thêm/xóa/chỉnh sửa bộ đ�
 
 ![Daulondaube](./img/daulondaube.png)
 
-## 2.5 Chức năng quản lý bộ đề kiểm tra của khóa
+## Chức năng quản lý bộ đề kiểm tra của khóa
 
 
 
