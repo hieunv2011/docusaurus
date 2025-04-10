@@ -8,7 +8,7 @@ Người sử dụng có thể **quản lý, tạo thêm/ chỉnh sửa/ xóa** 
 
 ![QuestionList](./img/questionlist.png)
 
-**Ghi chú: Đối với hình thức thi tập trung đề nghị xem [Chức năng kiểm tra khi kết thúc môn học - (THI TẬP TRUNG)](/docs/addFocusExam) để biết thêm chi tiết**
+**Ghi chú: Đối với hình thức thi tập trung đề nghị xem Chức năng kiểm tra khi kết thúc môn học - (THI TẬP TRUNG) để biết thêm chi tiết**
 - Cách tạo thêm bộ đề: **Bấm chọn** <a class="button button--primary"> Thêm bộ đề </a>
 
 ![AddTopic](./img/addTopic.png)

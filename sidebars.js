@@ -24,7 +24,6 @@ const sidebars = {
     'course',
     'question',
     'topic',
-    'addFocusExam',
     'addTeacher',
     'chat',
     'lesson'
