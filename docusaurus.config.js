@@ -44,7 +44,7 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           includeCurrentVersion: true,
-          lastVersion: '1.0.0',
+          lastVersion: "1.0.0",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -69,6 +69,14 @@ const config = {
           customCss: "./src/css/custom.css",
         },
       }),
+    ],
+  ],
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+      },
     ],
   ],
 
