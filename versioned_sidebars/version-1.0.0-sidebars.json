@@ -1,0 +1,12 @@
+{
+  "tutorialSidebar": [
+    "intro",
+    "course",
+    "question",
+    "topic",
+    "lesson",
+    "addTeacher",
+    "addExam",
+    "chat"
+  ]
+}
