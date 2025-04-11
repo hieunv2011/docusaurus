@@ -71,14 +71,14 @@ const config = {
       }),
     ],
   ],
-  plugins: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     require.resolve("@easyops-cn/docusaurus-search-local"),
+  //     {
+  //       hashed: true,
+  //     },
+  //   ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -160,6 +160,59 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      algolia: {
+        appId: 'B5DQUXZ049',
+        apiKey: '9f038fbe58419a0fd607abb91dc90259',
+        indexName: 'hieunv2011io',
+        contextualSearch: true,
+        translations: {
+          button: {
+            buttonText: 'Tìm kiếm',
+            buttonAriaLabel: 'Tìm kiếm',
+          },
+          modal: {
+            searchBox: {
+              resetButtonTitle: 'Xóa tìm kiếm',
+              resetButtonAriaLabel: 'Xóa tìm kiếm',
+              cancelButtonText: 'Thoát',
+              cancelButtonAriaLabel: 'Thoát',
+            },
+            startScreen: {
+              recentSearchesTitle: 'Tìm kiếm gần đây',
+              noRecentSearchesText: 'Chưa có tìm kiếm nào',
+              saveRecentSearchButtonTitle: 'Lưu tìm kiếm',
+              removeRecentSearchButtonTitle: 'Xóa tìm kiếm',
+              favoriteSearchesTitle: 'Yêu thích',
+              removeFavoriteSearchButtonTitle: 'Xóa khỏi yêu thích',
+            },
+            errorScreen: {
+              titleText: 'Không thể tìm kiếm',
+              helpText: 'Vui lòng kiểm tra kết nối Internet của bạn',
+            },
+            footer: {
+              selectText: 'Chọn',
+              navigateText: 'Di chuyển',
+              closeText: 'Đóng',
+              searchByText: 'Tìm kiếm bởi',
+            },
+            noResultsScreen: {
+              noResultsText: 'Không có kết quả nào',
+              suggestedQueryText: 'Bạn có thể thử tìm:',
+              reportMissingResultsText: 'Bạn nghĩ kết quả này nên xuất hiện?',
+              reportMissingResultsLinkText: 'Gửi phản hồi',
+            },
+            resultsScreen: {
+              noResultsText: 'Không tìm thấy kết quả nào',
+              loadingText: 'Đang tải kết quả...',
+              searchResultsForText: 'Kết quả tìm kiếm cho',
+              showAllResultsText: 'Xem tất cả kết quả',
+            },
+          },
+        },
+      },
+      
+      
+  
     }),
 };
 
